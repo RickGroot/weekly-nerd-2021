@@ -1,0 +1,88 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 0px;
+}
+
+header h1 {
+    position: relative;
+    font-family: 'Kiwi Maru', serif;
+    text-shadow: 3px 1px 1px rgba(31, 31, 31, 0.75);
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 3em;
+    text-align: center;
+    align-self: end;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+header p {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-shadow: 1px 1px 1px rgba(31, 31, 31, 0.75);
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-align: center;
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+header p a {
+    font-family: inherit;
+    text-decoration: inherit;
+    color: inherit;
+    font-weight: 700;
+}
+
+section:not(.banner) {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 3em 2em;
+}
+
+section:not(.banner) h2 {
+    font-family: 'Kiwi Maru', serif;
+    margin-bottom: 1.5em;
+    font-size: 1.8em;
+}
+
+section:not(.banner) p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.2em;
+}
+
+section.banner {
+    height: 40vh;
+    position: relative;
+    width: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.source {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 1em;
+    color: white;
+}
