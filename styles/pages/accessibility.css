@@ -1,0 +1,24 @@
+header {
+    filter: saturate(0.8);
+    background-image: url(../../img/accessibility/header.png);
+}
+
+section.banner.disability {
+    background-image: url(../../img/accessibility/disability.jpeg);
+}
+
+section.banner.semantic {
+    background-image: url(../../img/accessibility/semantic.png);
+}
+
+section.banner.color {
+    background-image: url(../../img/accessibility/color.jpg);
+}
+
+section.banner.test {
+    background-image: url(../../img/accessibility/test.jpg);
+}
+
+section.banner.conclusion {
+    background-image: url(../../img/accessibility/conclusion.png);
+}

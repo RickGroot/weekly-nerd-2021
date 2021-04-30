@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Groot || Het web is voor iedereen</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Noto+Sans+JP:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/article.css">
+    <link rel="stylesheet" href="./styles/pages/accessibility.css">
+</head>
+
+<body>
+    <header>
+        <h1>Het web is voor iedereen, toch?</h1>
+        <p>Door <a href="https://github.com/RickGroot" target="_blank" rel="noopener noreferrer">Rick Groot</a></p>
+        <a href="https://www.snapsurveys.com/blog/web-accessibility-important/" target="_blank"
+            rel="noopener noreferrer" class="source">Source</a>
+    </header>
+    <main>
+        <section>
+            <h2>Ik weet wat mijn gebruiker doet</h2>
+            <p>Designen voor iedereen. Het lijkt vrij simpel, maar dat is het niet altijd. Misschien kom je het zelf wel
+                eens tegen, bijvoorbeeld wanneer je maar 1 hand beschikbaar hebt. Als er dan een notificatie binnenkomt
+                is het scherm eigenlijk net wat te groot om erop te kunnen klikken. Gebruikers zijn onvoorspelbaar,
+                niemand gebruikt een device precies waar deze voor is bedoeld. Je kan nooit alle soorten beperkingen
+                opvangen in een goed ontwerp, maar er zijn zeker wel een aantal punten waar veel verbeterd kan worden.
+            </p>
+        </section>
+        <section class="banner disability">
+            <a href="https://medium.com/priceline-labs/a11y-the-path-to-ensuring-web-accessibility-e3929c8ea2e3"
+                target="_blank" rel="noopener noreferrer" class="source">Source</a>
+        </section>
+        <section>
+            <h2>Beperkingen in, op en om het web</h2>
+            <p>Er zijn veel verschillende manieren waarop een gebruiker beperkt kan worden, en het is aan het ontwerp om
+                deze dingen op te vangen. Er zijn fysieke en contextuele beperkingen. Fysieke beperkingen zijn
+                bijvoorbeeld kleurenblinden, of mensen die misselijk worden van veel animaties op een website. De
+                contextuele beperkingen hebben te maken met de context waarin een gebruiker zich bevind. Voorbeelden
+                hiervan zijn wanneer de gebruiker maar 1 hand beschikbaar heeft, alleen het toetsenbord kan gebruiken,
+                of geen geluiden kan horen door bijvoorbeeld een luide omgeving.</p>
+        </section>
+        <section class="banner semantic">
+            <a href="https://stackoverflow.blog/2020/12/10/the-semantic-future-of-the-web/" target="_blank"
+                rel="noopener noreferrer" class="source">Source</a>
+        </section>
+        <section>
+            <h2>Wees semantisch</h2>
+            <p>Een goed begin is het halve werk, ook in het maken van de meest complexe of simpele sites. Begin met een
+                goede structuur in de HTML. Hierdoor is het beter leesbaar voor screenreaders. Gebruik h1 en h2
+                elementen op de correcte manier, waardoor er hiërarchie in de site komt voor blinden met screenreader.
+                Vermijd div elementen, gebruik deze alleen voor styling. Geef links een passende tekst enzovoorts.
+                Daarnaast is het ook verstandig om alles te laten werken in alleen HTML. Bouw geen grote features
+                waardoor de site niet meer werkt zonder javascript. Gebruik CSS als styling en JS als interactie,
+                gebruik dus geen .style in je JavaScript bestanden maar een classList.add. Hierdoor houd je alles
+                gescheiden, wordt het dus overzichtelijker, en het verbeterd ook nog de performance. Door deze kleine
+                dingen in je achterhoofd te houden wordt het gebruik van websites al een stuk aangenamer voor mensen met
+                een fysieke beperking.</p>
+        </section>
+        <section class="banner color">
+            <a href="https://htmlcolorcodes.com/" target="_blank" rel="noopener noreferrer" class="source">Source</a>
+        </section>
+        <section>
+            <h2>Kleurengebruik</h2>
+            <p>Kleuren zijn vaak een groot onderdeel van een website, maar het moet niet te dominant worden binnen je
+                ontwerp. Mensen met kleurenblindheid hebben het vaak moeilijk met het lezen van sommige teksten op een
+                pagina, en dat komt vooral door een gebrek aan contrast. Donkerrood en zwart vallen niet goed op wanneer
+                ze over elkaar worden gebruikt, en zo geld dat ook voor veel andere kleuren combinaties. Wanneer je een
+                tekst op een afbeelding plaats heb je hetzelfde probleem, sommige delen van een afbeelding geven meer
+                contrast als andere. In de developer tools van Chrome staat onder het kopje rendering een mogelijkheid
+                om de site te bekijken met verschillende kleurenblindheden, zeker een goed idee om naar te kijken
+                wanneer er veel kleurgebruik aanwezig is.</p>
+        </section>
+        <section class="banner test">
+            <a href="https://99designs.nl/blog/resources/user-testing-web-design/" target="_blank"
+                rel="noopener noreferrer" class="source">Source</a>
+        </section>
+        <section>
+            <h2>Testen, testen, testen...</h2>
+            <p>Als je echt wilt weten hoe gebruikers met een site omgaan is het handig om veel te testen. Door met je
+                eigen ogen te zien hoe een gebruiker door jou site heen navigeert kun je heel veel leren en verbeteren.
+                Test niet alleen met gebruikers die je al kent, en die weten hoe iets in elkaar zit. Probeer ook met
+                andere doelgroepen te testen, en vooral in veel andere contexten. Test met kleurenblinden, test in een
+                metro, test tijdens het sporten, door zo divers mogelijk te testen krijg je de meest waardevolle
+                feedback.</p>
+            <p>Daarnaast is het zelf ook mogelijk om een aantal dingen te testen. Zo kun je heel gemakkelijk zelf een
+                screenreader aanzetten en luisteren naar je site. Ook kan je eens proberen de site te navigeren met
+                alleen een toetsenbord, of met een hand op een mobile device. Op deze manier kom je er bijvoorbeeld
+                achter dat er bepaalde knoppen niet meer goed bruikbaar zijn met 1 hand, of dat linkjes met alleen de
+                tekst "lees meer" niet handig zijn voor blinden.</p>
+        </section>
+        <section class="banner conclusion">
+            <a href="https://activecollab.com/blog/marketing/user-behavior-and-lead-scoring" target="_blank"
+                rel="noopener noreferrer" class="source">Source</a>
+        </section>
+        <section>
+            <h2>Een site voor iedereen</h2>
+            <p>Een website die voor iedereen perfect werkt is vrijwel onmogelijk. Er zijn veel verschillende beperkingen
+                en contexten, waardoor het heel moeilijk word om een design te maken wat voor iedereen werkt. Maar dit
+                betekent niet dat er geen aandacht aan moet worden besteed. Er is een grote groep mensen die nu moeilijk
+                gebruik kunnen maken van een site, wat grotendeels opgelost kan worden door kleine aanpassingen zoals
+                hierboven genoemd. Door meer naar je gebruikers te kijken en je te laten meenemen door de gebruiker kan
+                er meer aandacht worden besteed en wordt het web al snel gebruiksvriendelijker.</p>
+        </section>
+    </main>
+</body>
+
+</html>

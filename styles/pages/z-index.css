@@ -1,0 +1,15 @@
+header {
+    background-image: url(../../img/z-index/header.jfif);
+}
+
+section.banner.problem {
+    background-image: url(../../img/z-index/problem.jpg);
+}
+
+section.banner.var {
+    background-image: url(../../img/z-index/variable.png);
+}
+
+section.banner.solution {
+    background-image: url(../../img/z-index/solution.jpeg);
+}
