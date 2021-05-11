@@ -56,11 +56,12 @@ section:not(.banner) {
     position: relative;
     max-width: 600px;
     margin: 2em auto;
-    padding: 3em 2em;
+    padding: 0 2em 3em 2em;
 }
 
 section:not(.banner) h2 {
     font-family: 'Kiwi Maru', serif;
+    margin-top: 1.5em;
     margin-bottom: 1.5em;
     font-size: 1.8em;
 }

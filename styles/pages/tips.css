@@ -1,0 +1,60 @@
+header {
+    background-image: url(../../img/tips/head.jpg);
+}
+
+section.banner.shadow {
+    background-image: url(../../img/tips/drop-shadow.jpg);
+}
+
+.shadow a {
+    color: rgb(100, 100, 100);
+}
+
+section.banner.sea {
+    background-image: url(../../img/tips/sea.jpg);
+}
+
+section.banner.select {
+    background-image: url(../../img/tips/highlight.jpg);
+}
+
+section.banner.list {
+    background-image: url(../../img/tips/listbanner.jpg);
+}
+
+ol {
+    margin-top: 1em;
+    list-style-position: inside
+}
+
+li::marker {
+    font-weight: bold;
+}
+
+#type:hover h2 {
+    width: 10ch;
+    white-space: nowrap;
+    border-right: 3px solid;
+    animation: typing 2s steps(15), blink .5s step-end infinite alternate;
+}
+
+#cursor {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>"), auto;
+}
+
+#selection::selection {
+    background-color: #f09;
+    color: #fff;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}

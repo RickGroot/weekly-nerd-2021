@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Groot || CSS Tips & Tricks</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Noto+Sans+JP:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/article.css">
+    <link rel="stylesheet" href="./styles/pages/tips.css">
+</head>
+
+<body>
+    <header>
+        <h1>CSS Tips & Tricks</h1>
+        <p>Door <a href="https://github.com/RickGroot" target="_blank" rel="noopener noreferrer">Rick Groot</a></p>
+        <a href="https://nl.pinterest.com/pin/691232242787351925/" target="_blank"
+            rel="noopener noreferrer" class="source">Source</a>
+    </header>
+    <main>
+        <section>
+            <h2>HTML & CSS</h2>
+            <p>HTML en CSS worden altijd gebruikt bij het bouwen van een website. Met HTML is alle structuur en content
+                van een site te maken en met CSS kan je alles vormgeven naar een passend en mooi ontwerp. Binnen deze
+                twee talen zijn er heel wat tricks waar mensen niet vanaf weten, die het programmeren kunnen verbeteren.
+            </p>
+        </section>
+        <section class="banner shadow">
+            <a href="https://codepen.io/denic/pen/MWeGqJb"
+                target="_blank" rel="noopener noreferrer" class="source">Source</a>
+        </section>
+        <section id="type">
+            <h2>Drop shadow</h2>
+            <p>Wanneer je werkt met een afbeelding met transparante achtergrond is het mogelijk om een drop shadow te
+                gebruiken. De meeste mensen gebruiken de meest voor de hand liggende optie, de box-shadow. Wanneer je
+                drop-shadow gebruikt krijgt de afbeelding een schaduw rondom het échte object, zoals hierboven staat
+                geïllustreerd. De rechter afbeelding maakt hier gebruik van deze property: filter: drop-shadow(2px 4px
+                8px #585858);</p>
+            <h2>Typing animatie</h2>
+            <p>Door CSS animaties te gebruiken is heet heel makkelijk om een typ effect te creëren. Je kan een element
+                een animatie meegeven wat wordt uitgevoert in een aantal steps. Door deze manier kan je per letter iets
+                laten verschijnen waardoor het lijkt alsof het wordt getypt.<img src="./img/tips/typing.png"
+                    alt="Code voorbeeld" class="example"></p>
+        </section>
+        <section class="banner sea">
+            <a href="https://unsplash.com/photos/jnHQsTfq2Og" target="_blank"
+                rel="noopener noreferrer" class="source">Source</a>
+        </section>
+        <section>
+            <h2>Smooth scrolling</h2>
+            <p>In CSS is een nieuwe property genaamd scroll-behaviour. Door scroll-behavior: smooth; te gebruiken op het
+                html element gaat het automatisch scrollen op een soepele manier. Wanneer je dit toevoegt op een link
+                die verwijst naar een kopje verderop de pagina, gaat het scrollen op een soepele manier in plaats van
+                een instant verandering. Deze functionaliteit is nog vrij nieuw en is helaas nog niet ondersteund op
+                safari.</p>
+            <h2>Cursor</h2>
+            <p id="cursor">Dit is een wat kleinere trick met de CSS cursor. De meeste mensen weten wel dat je de cursor
+                door CSS kan aanpassen naar bijvoorbeeld een handje of ander icoon, maar wist je dat er nog veel meer
+                mee kan? Je kan de cursor ook een afbeelding meegeven, dan veranderd je cursor naar een afbeelding. Ook
+                is het mogelijk om het te veranderen naar een icoon of svg.</p>
+        </section>
+        <section class="banner select">
+            <a href="https://unsplash.com/photos/iy5W_VgYuUA" target="_blank" rel="noopener noreferrer" class="source">Source</a>
+        </section>
+        <section>
+            <h2>::selection</h2>
+            <p id="selection">Hier is een pseudo class waarvan je waarschijnlijk nog nooit hebt gehoord, de ::selection.
+                Met deze class is het mogelijk om de geselecteerde tekst te stylen. Normaal wanneer je iets selecteert
+                wordt dit een standaard kleur, bijvoorbeeld een blauwe markering onder witte tekst. Deze markering is
+                aan te passen door de ::selection een achtergrondkleur en tekst kleur mee te geven, zoals is toegepast
+                op deze alinea en hieronder staat beschreven:<img src="./img/tips/selection.png" alt="Code voorbeeld"
+                    class="example"></p>
+            <h2>Scroll snapping</h2>
+            <p>Met CSS is het mogelijk om scroll snapping toe te passen. Wanneer je dit toepast op een element wordt er
+                automatisch naar dit element gescrold. Op deze manier kan je een artikel precies in het midden van je
+                scherm uitlijnen, en dit op een automatische manier die alleen gebruik maakt van CSS.<img
+                    src="./img/tips/scroll.png" alt="Code voorbeeld" class="example"></p>
+        </section>
+        <section class="banner list">
+            <a href="https://www.wired.com/story/how-to-set-up-twitter-lists/" target="_blank"
+                rel="noopener noreferrer" class="source">Source</a>
+        </section>
+        <section>
+            <h2>Start attribute</h2>
+            <p>Dit is een trick voor HTML. Wanneer je een ordered list aanmaakt is het mogelijk om een start attribute
+                mee te geven. Wanneer je dit doet is het mogelijk om een startwaarde mee te geven aan de lijst met
+                objecten. Zo is het dan mogelijk om de lijst te laten starten bij 10 of een ander cijfer naar keuze.</p>
+            <ol start="10">
+                <li>Boter</li>
+                <li>Kaas</li>
+                <li>Pasta</li>
+                <li>Saus</li>
+            </ol>
+            <img src="./img/tips/list.png" alt="Code voorbeeld" class="example">
+            <h2>Base element</h2>
+            <p>Wederom en HTML trick. Het base element is een element dat aan te roepen is in de head van je HTML. Dit
+                element wordt vooral veel gebruik wanneer je wilt dat alle links op een pagina in een nieuw tabblad
+                worden geopend. Alles wat je dan hoeft te doen is &lt;base target="_blank"&gt; toe te voegen in de head, en alle
+                links worden in een nieuw tabblad geopend zonder dat je dit elke keer moet specificeren.</p>
+        </section>
+    </main>
+</body>
+
+</html>
